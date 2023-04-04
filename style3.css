@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+}
+body,html{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	color: #887859;	
+	display: flex;
+	flex-direction: row;
+	background-image: url(https://www.gamespot.com/a/uploads/original/679/6794662/3943565-shortcutstory.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+#navbar{
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	background-color: #061735;
+	border-right: solid #887859 0.5px;
+	height: auto;
+	opacity: 0.8;
+}
+
+#navbar-alt{
+	display: none;
+}
+
+#navbar > h1{
+	margin: 10px;
+}
+
+.navbarButton{
+	text-decoration: none;
+	padding:10px;
+	padding-right: 20px;
+	width: 100%;
+	color: #887859 ;
+	font-size: 25px;
+}
+
+.navbarButton:hover{
+	background-color:#887859 ;
+	color: white
+}
+
+#introContent{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center	;
+}
+
+#background{
+	margin: 30px;
+	background-color: #3C5472;
+	opacity: 0.9;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center	;
+}
+
+#background > h1{
+	margin: 0px;
+	font-size: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.contentImage{
+	max-width: 600px;
+	height: auto;
+	border: solid #887859 0.7px;
+	margin: 10px;
+}
+
+#headTitle{
+	margin: 0px;
+	padding: 0px;
+}
+
+#introPoem{
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: double #887859 5px ;
+	border-right: double #887859 5px;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.border{
+	background-image: url(https://eldenring.wiki.fextralife.com/file/Elden-Ring/dks-remaster-wiki-hr.png);
+	width: 1000px;
+	height: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+.text{
+	padding:0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 75%;
+	background-color: black;
+	opacity: 0.8;
+	border: double #887859 5px;
+}
+
+#worldMap{
+	padding:0px;
+	margin: 5px;
+	background-color: black;
+	border: double #887859 5px;
+}
+
+@media screen and (max-width: 600px){
+
+	body{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	#navbar{
+		display: none;
+	}
+	#navbar-alt{
+		margin: 0px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: black;
+		border-bottom: solid #887859 0.5px;
+		width: 100%;
+		opacity: 0.9;
+	}
+
+	.navbarButton{
+		text-align: center;
+		margin: 0px;
+		text-decoration: none;
+		padding:10px;
+		width: 100%;
+		height:auto;
+		color: #887859 ;
+		font-size: 15px;
+	}
+
+	.border{
+		background-image: url(https://eldenring.wiki.fextralife.com/file/Elden-Ring/dks-remaster-wiki-hr.png);
+		width: 85%;
+		height: 13px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-style: none;
+	}
+
+	.contentImage{
+		max-width: 400px;
+		height: auto;
+		border: solid #887859 0.7px;
+	}
+}
+
+
